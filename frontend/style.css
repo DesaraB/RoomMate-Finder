@@ -539,9 +539,32 @@ background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%,
 }
 .footer__link--items > h2 {
   color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #8d626d 0%, #2e14c4 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 .footer__link--items > a {
   color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #8d626d 0%, #2e14c4 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -569,7 +592,17 @@ background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%,
 }
 .webside__right {
   color: white;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb19f 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #8d626d 0%, #2e14c4 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
 }
 @media screen and (max-width: 820px) {
