@@ -6,17 +6,29 @@ body {
   }
   
   header {
-    background-color: #0077cc;
-    padding: 1rem 2rem;
+    background: #93b1f1;
+    padding: 0.5rem 2rem;
     color: #fff;
   }
   
   header h1 {
-    margin: 0;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #8d626d 0%, #2e14c4 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: larger;
   }
   
   nav {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+
   }
   
   nav a {
@@ -24,6 +36,15 @@ body {
     margin-right: 1.5rem;
     text-decoration: none;
     font-weight: 500;
+    display: inline;
+    transition: all 0.3s ease;
+  }
+  nav a:hover{
+    color: #4837ff;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
   }
   
   main {
@@ -40,6 +61,9 @@ body {
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
+    margin-top: 9px;
+    
+
   }
   
   .form-container h2 {
@@ -81,13 +105,13 @@ body {
     background-color: #005fa3;
   }
   
-  .signup-link {
+  .login-link {
     margin-top: 1rem;
     text-align: center;
     font-size: 0.9rem;
   }
   
-  .signup-link a {
+  .login-link a {
     color: #0077cc;
     text-decoration: none;
   }
@@ -97,5 +121,4 @@ body {
     padding: 2rem 0;
     font-size: 0.9rem;
     color: #777;
-  }
-  
+}

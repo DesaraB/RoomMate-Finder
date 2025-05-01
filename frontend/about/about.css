@@ -7,18 +7,29 @@ body {
   
   header {
     background: #93b1f1;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     color: #fff;
+    margin: 0 auto;
   }
   
   header h1 {
-    margin: 0;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #8d626d 0%, #2e14c4 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: larger;
   }
   
   nav {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: end;
+
   }
   
   nav a {
@@ -27,6 +38,12 @@ body {
     text-decoration: none;
     font-weight: 500;
     display: inline;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  nav a:hover{
+    color: #4837ff;
+
   }
   .nav-bar {
     display: flex;
